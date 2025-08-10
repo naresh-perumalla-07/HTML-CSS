@@ -1,0 +1,77 @@
+* {
+    color: rgb(101, 137, 125);
+}
+h1 {
+    color: rgb(47, 47, 159);
+}
+#login {
+    color: rgb(35, 120, 195);
+    text-transform: uppercase;
+}
+.upvote {
+    color: rgb(12, 16, 15);
+    background-color: rgb(132, 153, 147);
+
+}
+/* descendant selector */
+p a {
+    color: rgb(19, 31, 27);
+}
+/* Adjacent sibling combinator */
+p + h3 {
+    text-decoration: underline;
+}
+.upvote + button {
+    color: rgb(77, 209, 209);
+    background-color: rgb(228, 243, 238);
+}
+
+span > button {
+    color: darkgoldenrod;
+}
+input[type="text"]{
+    color: darksalmon;
+}
+
+input[type="password"]{
+    color: rgb(219, 66, 16);
+}
+    
+
+input[type="radio"]:checked + label {
+    color:rgb(125, 28, 221);
+    font-weight: bold;
+
+}
+
+button :hover{
+    color: rgb(44, 122, 122);
+    background-color: black;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button :active{
+    background-color: pink;
+}
+
+/* 
+div:nth-last-of-type(2n){
+    background-color: peru;
+} */
+
+
+/* Pseudo Element */
+h1::first-letter{
+    color: rgb(209, 98, 19);
+}
+
+p::first-letter{
+    color: rgb(3, 63, 175);
+}
+
+p::selection {
+    background-color: rgb(201, 54, 5);
+}

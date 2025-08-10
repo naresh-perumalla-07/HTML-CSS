@@ -1,0 +1,47 @@
+h1 {
+    color: aqua;
+}
+
+#greet {
+    color: rgb(132, 89, 38);
+}
+
+.myclass {
+    color: black;
+}
+ 
+/* id>class>element */ 
+/* specificity order  */
+
+div p {
+    color: antiquewhite;   
+}
+/* Descendant selectors  */
+
+.para {
+    color: rgb(236, 6, 6);
+}
+
+p {
+    color: rgb(25, 123, 209);
+}
+
+div.greatdiv .great {
+    color:brown
+}
+/* 
+Specificiy  : id class element : 0 2 1 */
+
+.greatdiv p.great {
+    color:rgb(9, 90, 44)
+}
+/* 
+Specificiy  : id class element : 0 2 1 */
+
+/* if specificity is same then cascading comes into picture */
+
+.greatdiv .great {
+    color:rgb(18, 15, 15)
+}
+/* 
+Specificiy  : id class element : 0 2 1 */

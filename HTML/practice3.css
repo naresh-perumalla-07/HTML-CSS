@@ -1,0 +1,8 @@
+h1,h2{
+    color: rgb(105, 171, 171);
+}
+p{
+    border-style: dotted dashed solid double;
+    border-width: 5px;
+    
+} 
